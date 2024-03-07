@@ -33,6 +33,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+} 
+
+.icon{
+  display: none;
 }
 
 .nav-part1 h4 {
@@ -137,4 +141,26 @@ body {
   left: 50%;
   transform: translateX(-50%);
   font-size: 17px;
+}
+
+.bottom{
+  height: 300px;
+  width: 100%;
+  padding: 5px;
+  overflow-x: auto;
+  overflow-y: hidden; 
+  white-space: nowrap;
+}
+.bottom::-webkit-scrollbar{
+  display: none;
+}
+.elem{
+  border-radius: 20px;
+  overflow-y: hidden; 
+  display: inline-block;
+  margin-right: 20px;
+  height: 100%;
+  width: 200px;
+  background-color: aqua;
+
 }
