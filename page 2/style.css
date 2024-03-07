@@ -10,7 +10,10 @@ body {
   height: 100%;
   width: 100%;
 }
-
+.main{
+  height: 100%;
+  width: 100%;
+}
 .page1 {
   height: 100%;
   width: 100%;
@@ -144,6 +147,7 @@ body {
 }
 
 .bottom{
+  /* line-height: 20px; */
   height: 300px;
   width: 100%;
   padding: 5px;
@@ -155,12 +159,35 @@ body {
   display: none;
 }
 .elem{
-  border-radius: 20px;
+  border-radius: 40px;
   overflow-y: hidden; 
   display: inline-block;
   margin-right: 20px;
   height: 100%;
-  width: 200px;
+  width: 250px;
   background-color: aqua;
+  overflow: hidden;
 
 }
+
+
+.elem img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.elem video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* .page2{
+  height: 100%;
+  width: 100%;
+  background-color: red;
+} */
